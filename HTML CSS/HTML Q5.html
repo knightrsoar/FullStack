@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>"Life in Antra" Keyboard</title>
+<style>
+  .keyboard-table {
+    width: 60%; /* Adjust as per your requirement */
+    margin: auto;
+    border-collapse: collapse;
+    table-layout: fixed;
+  }
+
+  .keyboard-table td {
+    border: 1px solid #000;
+    text-align: center;
+    vertical-align: middle;
+    padding: 10px;
+  }
+
+  .keyboard-table button {
+    width: 100%;
+    height: 50px; /* Adjust as per your requirement */
+    font-size: 1em;
+  }
+
+  .header {
+    background-color: #grey;
+    padding: 20px;
+    font-size: 24px;
+    text-align: center;
+  }
+</style>
+</head>
+<body>
+
+<table class="keyboard-table">
+  <tr>
+    <td colspan="5" class="header">Antra Life</td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <button onclick="window.open('https://www.google.com', '_blank')">Google</button>
+    </td>
+    <td colspan="3">
+      <button onclick="window.open('https://www.github.com', '_blank')">GitHub</button>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <button onclick="window.open('https://www.facebook.com', '_blank')">Facebook</button>
+    </td>
+    <td>
+      <button onclick="window.open('https://mail.google.com', '_blank')">Gmail</button>
+    </td>
+    <td>
+      <button onclick="window.open('https://www.youtube.com', '_blank')">YouTube</button>
+    </td>
+    <td colspan="2">
+      <button onclick="window.open('https://play2048.co', '_blank')">2048</button>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <button onclick="window.open('https://www.example.com/food', '_blank')">Food</button>
+    </td>
+    <td colspan="2">
+      <button onclick="window.open('https://www.example.com/game', '_blank')">Game</button>
+    </td>
+    <td rowspan="2">
+      <button onclick="window.open('https://www.example.com/social', '_blank')">Social life</button>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <button onclick="window.open('https://www.example.com/beer', '_blank')">Beer>>></button>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <button onclick="window.open('https://www.example.com/wc', '_blank')">WC</button>
+    </td>
+    <td colspan="3">
+      <button onclick="window.open('https://www.example.com/sleep', '_blank')">Sleep</button>
+    </td>
+  </tr>
+</table>
+
+</body>
+</html>

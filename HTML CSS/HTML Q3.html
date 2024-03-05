@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nested Tables</title>
+<style>
+  /* Basic styles */
+  .outer-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  .outer-table td {
+    border: 1px solid black;
+  }
+
+  .inner-table {
+    width: 100%;
+    height: 100px; /* Adjust as needed */
+    border-collapse: collapse;
+    text-align: center;
+    font-size: 24px; /* Adjust as needed */
+  }
+
+  .inner-table td {
+    border: 1px solid black;
+  }
+</style>
+</head>
+<body>
+
+<table class="outer-table">
+  <tr>
+    <td style="width: 20%;"> <!-- Adjust width as needed -->
+      <a href="https://antra.net/" target="_blank">
+        <img src="path_to_antra_logo.png" alt="Antra Logo">
+      </a>
+    </td>
+    <td style="width: 80%;"> <!-- Adjust width as needed -->
+      <table class="inner-table">
+        <tr>
+          <td>Software</td>
+        </tr>
+        <tr>
+          <td>Developer</td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+
+</body>
+</html>
